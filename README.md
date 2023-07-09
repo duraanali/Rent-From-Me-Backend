@@ -2,26 +2,6 @@
 
 This document provides detailed information about the API endpoints and their usage for a rental management system. The API allows owners and renters to register, login, manage profiles, create, update, and delete items, and perform rental operations.
 
-## Getting Started
-
-To use the API, follow the steps below:
-
-1. Clone the repository and navigate to the project directory.
-2. Install the required dependencies by running the following command:
-   ```bash
-   npm install
-   ```
-3. Create a `.env` file in the project directory and configure the environment variables. For example:
-   ```
-   PORT=9000
-   SECRET_KEY=your-secret-key
-   ```
-4. Start the server by running the following command:
-   ```bash
-   npm start
-   ```
-5. The API will be accessible at `http://localhost:9000`.
-
 ## Authentication
 
 Most endpoints in the API require authentication using JSON Web Tokens (JWT). To authenticate, include the `Authorization` header in the request with the JWT. The header should be in the format: `Bearer <token>`, where `<token>` is the JWT obtained during the login process.
