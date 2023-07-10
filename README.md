@@ -2,6 +2,8 @@
 
 This document provides detailed information about the API endpoints and their usage for a rental management system. The API allows owners and renters to register, login, manage profiles, create, update, and delete items, and perform rental operations.
 
+``BASE_URL: https://rent-from-me-f11e9aa3a1c2.herokuapp.com``
+
 ## Authentication
 
 Most endpoints in the API require authentication using JSON Web Tokens (JWT). To authenticate, include the `Authorization` header in the request with the JWT. The header should be in the format: `Bearer <token>`, where `<token>` is the JWT obtained during the login process.
