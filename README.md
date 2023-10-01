@@ -24,6 +24,7 @@ Register a new owner in the system.
 | `last_name` | string   | Yes      | Last name of the owner.          |
 | `email`     | string   | Yes      | Email address of the owner.      |
 | `password`  | string   | Yes      | Password for the owner's account.|
+| `date`      | string   | no       | The date the user is created     |
 
 #### Response
 
